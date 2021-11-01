@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const adSchema = mongoose.Schema({
   name: String,
-  price: Number
-})
+  price: Number,
+});
 
-module.exports.Ad = mongoose.model('Ad', adSchema)
+module.exports.Ad = mongoose.model("Ad", adSchema);
